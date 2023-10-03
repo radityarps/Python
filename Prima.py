@@ -3,7 +3,7 @@ def inputBilangan(n):
         if bilangan <= 1:
             print(bilangan)
         else:
-            def bilangan_prima():
+            def bilanganPrima():
                 for i in range(2, bilangan):
                     if bilangan % i == 0:
                         return False
